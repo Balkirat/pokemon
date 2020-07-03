@@ -34,7 +34,7 @@ const Pokelist = (props) => {
   console.log(pokemons);
   return (
     <>
-      <Grid container spacing={5}>
+      <Grid container spacing={5} justify="center">
         {pokemons.map((pokemon) => {
           return (
             <Grid item xs={6} lg={4} key={pokemon.id}>

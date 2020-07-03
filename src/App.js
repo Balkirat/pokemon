@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Pokeinfo from "./components/Pokeinfo";
 
 const POKEMON = gql`
-  query Pokemon($first: Int!) {
+  query Pokemons($first: Int!) {
     pokemons(first: $first) {
       name
       image
